@@ -1,4 +1,4 @@
-﻿# ✅ Web framework
+# ✅ Web framework
 fastapi==0.116.0
 uvicorn==0.35.0
 starlette==0.46.2
@@ -14,7 +14,8 @@ pydantic-extra-types==2.10.5
 pydub==0.25.1
 soundfile==0.13.1
 gTTS==2.5.4
-openai-whisper==20250625
+openai-whisper==20231116
+torch==2.2.2  # 👈 Required by whisper
 
 # ✅ Translation
 deep-translator==1.11.4
